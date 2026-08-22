@@ -2,9 +2,10 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         seen = {}
         for i in strs:
-            if "".join(sorted(i)) not in seen:
-                seen["".join(sorted(i))]=[i]
+            key = "".join(sorted(i))
+            if key not in seen:
+                seen[key]=[i]
             else:
-                seen["".join(sorted(i))].append(i)
+                seen[key].append(i)
 
         return list(seen.values())
