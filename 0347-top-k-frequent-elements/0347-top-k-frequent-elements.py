@@ -8,6 +8,7 @@ class Solution:
             else:
                 seen[i] += 1
 
-        return sorted(seen, key=seen.get , reverse=True)[:k]
+        seen1=sorted(seen, key=seen.get , reverse=True)
+        return seen1[:k]
 
         
