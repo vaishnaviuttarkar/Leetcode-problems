@@ -4,12 +4,10 @@ class Solution:
         longest = 0
         for i in s:
             if i-1 not in s:
-                # current = i
                 length = 1
 
-                # while current+1 in s:
                 while i+length in s:
-                    # current += 1
                     length += 1
                 longest = max(length,longest)
+                
         return longest
