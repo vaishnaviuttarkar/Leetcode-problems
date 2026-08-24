@@ -10,7 +10,5 @@ class Solution:
                 while current+1 in s:
                     current += 1
                     length += 1
-
                 longest = max(length,longest)
-                    
         return longest
