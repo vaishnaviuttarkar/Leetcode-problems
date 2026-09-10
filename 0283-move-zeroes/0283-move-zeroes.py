@@ -3,17 +3,23 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        left = 0
-        right = 1
+        # left = 0
+        # right = 1
 
-        while right < len(nums):
-            if nums[left] == 0 and nums[right] == 0:
-                right+=1
-            elif nums[left] == 0 and nums[right] != 0:
-                # Swap
-                nums[left] , nums[right] = nums[right], nums[left]
+        # while right < len(nums):
+        #     if nums[left] == 0 and nums[right] == 0:
+        #         right+=1
+        #     elif nums[left] == 0 and nums[right] != 0:
+        #         # Swap
+        #         nums[left] , nums[right] = nums[right], nums[left]
+        #         left += 1
+        #         right += 1
+        #     else:
+        #         left += 1
+        #         right += 1
+        left = 0
+
+        for right in range(len(nums)):
+            if nums[right] != 0:
+                nums[left], nums[right] = nums[right], nums[left]
                 left += 1
-                right += 1
-            else:
-                left += 1
-                right += 1
