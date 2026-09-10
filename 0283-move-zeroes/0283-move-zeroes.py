@@ -11,9 +11,7 @@ class Solution:
                 right+=1
             elif nums[left] == 0 and nums[right] != 0:
                 # Swap
-                c = nums[left]
-                nums[left] = nums[right]
-                nums[right] = c
+                nums[left] , nums[right] = nums[right], nums[left]
                 left += 1
                 right += 1
             else:
