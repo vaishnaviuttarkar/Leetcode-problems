@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/vaishnaviuttarkar/Leetcode-problems/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/vaishnaviuttarkar/Leetcode-problems/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/vaishnaviuttarkar/Leetcode-problems/tree/master/0347-top-k-frequent-elements) |
+| [0875-koko-eating-bananas](https://github.com/vaishnaviuttarkar/Leetcode-problems/tree/master/0875-koko-eating-bananas) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -88,4 +89,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/vaishnaviuttarkar/Leetcode-problems/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0875-koko-eating-bananas](https://github.com/vaishnaviuttarkar/Leetcode-problems/tree/master/0875-koko-eating-bananas) |
 <!---LeetCode Topics End-->
